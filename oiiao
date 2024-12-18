@@ -14,14 +14,15 @@ local HubLib = {
 	Flags = {},
 	Themes = {
 		Default = {
-			Main = Color3.fromRGB(25, 25, 25),
-			Second = Color3.fromRGB(32, 32, 32),
-			Stroke = Color3.fromRGB(60, 60, 60),
-			Divider = Color3.fromRGB(60, 60, 60),
-			Text = Color3.fromRGB(240, 240, 240),
-			TextDark = Color3.fromRGB(150, 150, 150)
-		}
-	},
+			Main = Color3.fromRGB(35, 35, 35), -- Dark gray for the main background
+			Second = Color3.fromRGB(50, 50, 50), -- Slightly lighter gray for secondary elements
+			Stroke = Color3.fromRGB(80, 80, 80), -- Medium gray for strokes
+			Divider = Color3.fromRGB(80, 80, 80), -- Same gray for dividers
+			Text = Color3.fromRGB(230, 230, 230), -- Light gray for readable text
+			TextDark = Color3.fromRGB(180, 180, 180), -- Darker gray for secondary text
+			Accent = Color3.fromRGB(200, 50, 50) -- Red accent for highlights/buttons
+	}
+}
 	SelectedTheme = "Default",
 	Folder = nil,
 	SaveCfg = false
